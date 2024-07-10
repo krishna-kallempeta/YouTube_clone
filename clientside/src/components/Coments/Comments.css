@@ -1,0 +1,62 @@
+.comments_sub_form_comments{
+    display: flex;
+    width: 70%;
+}
+.comment_ibox{
+    width: 80%;
+    padding: 0.5rem;
+    padding-left: 2%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid  gray;
+    color: white;
+
+}
+.comments_add_btn_comments{
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-bottom: 2px solid  rgb(64, 64, 64);
+    background-color: transparent;
+    color: white;
+    font-size: large;
+    width: 20%;
+
+
+}
+.comments_add_btn_comments:hover{
+    border: 2px solid rgb(64, 64,64);
+    border-bottom: 2px solid gray;
+    background-color: rgb(255, 255, 255,0.05);
+}
+
+/* display */
+
+.display_comment_container{
+
+}
+.comment_body{
+    color: rgb(197, 197, 197);
+    margin: 0;
+    margin-top: 0.5rem;
+
+
+}
+.userCommented{
+    color: rgb(50, 50, 50);
+    margin: 0;
+
+}
+.EditDel_DisplayComment{
+    padding: 0.2rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+    color: rgb(44, 85, 209,0.696);
+    cursor: pointer;
+
+}
+.EditDel_DisplayComment i{
+    padding: 0.2rem;
+    
+
+}
+

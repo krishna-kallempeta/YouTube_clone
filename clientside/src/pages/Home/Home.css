@@ -1,0 +1,22 @@
+.navigation_Home{
+    color: white;
+    background-color: rgb(37, 37, 37);
+    position: sticky;
+    top: 0;
+    display: flex;
+   
+    overflow-x: auto;
+    border-bottom: 2px solid rgb(128, 128, 128);
+
+   
+}
+.btn_nav_home{
+    background-color: rgb(46, 46, 46);
+    margin: 0,5rem;
+    border-radius: 2rem;
+    padding: 0.2rem 0.6rem;
+    cursor: pointer;
+}
+.btn_nav_home:hover{
+    background-color: rgb(121, 119, 119);
+}

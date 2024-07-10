@@ -1,0 +1,54 @@
+.SearchBar_Container{
+    margin: auto;
+    flex-grow: 2;
+    display: flex;
+    height: 2rem;
+}
+.SearchBar_Container2{
+    margin:auto;
+}
+.Search_div{
+    display: flex;
+    gap: 12px;
+    margin: auto;
+    position: relative;
+    z-index: 91;
+    align-items: center; 
+}
+.iBox_SearchBar{
+    background-color: white;
+    display: flex;
+    width: 30rem;
+    border: 1px solid gray;
+    padding: 0.2rem;
+    color: rgb(30, 29, 29);
+    font-size: large;
+    height: 2rem;
+    padding-left: 2rem;
+}
+.searchIcon_SearchBar{
+    cursor: pointer;
+    padding: 0.7rem;
+    width: 2rem;
+    border-radius: 0.1rem;
+    color: aliceblue;
+}
+.searchIcon_SearchBar:hover{
+    background-color: black;
+}
+.Mic_SearchBar{
+    border-radius: 100%;
+    padding: 0.5rem;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+    margin: auto 0.7rem;
+
+}
+.vid_bell_Navbar{
+    border-radius: 100%;
+    padding: 0.5rem;
+    background-color: rgb(76, 75, 75);
+    color: white;
+    margin: auto 0.7rem;
+
+}
